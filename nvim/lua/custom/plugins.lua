@@ -17,4 +17,10 @@ return {
       require("telescope").load_extension("fzf")
     end,
   },
+  {
+  "stevearc/conform.nvim",
+  config = function()
+    require("custom.configs.conform")
+  end,
+  }
 }
