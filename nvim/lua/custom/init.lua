@@ -8,3 +8,10 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     })
   end,
 })
+
+vim.o.mouse = "a"
+vim.o.guicursor = ""
+
+
+
+

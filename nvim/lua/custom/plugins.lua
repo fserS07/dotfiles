@@ -22,5 +22,15 @@ return {
   config = function()
     require("custom.configs.conform")
   end,
-  }
+  },
+   {
+    "NvChad/base46",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "EdenEast/nightfox.nvim",
+    lazy = false,
+    priority = 1000,
+  },
 }
